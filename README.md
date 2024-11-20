@@ -2,7 +2,7 @@
 This project shows how to containerize flask web app using docker
 ## Requirements
 + docker - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
-+ python 3.x
++ python 3.x - https://www.python.org/downloads/
 ## Project Structure
 + app.py - contais main flask application source code 
 + templates/: This folder contains HTML files for UI.
