@@ -16,15 +16,6 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     - name: upload docker image to docker hub
-  deploy:
-    #needs: [build]
-    #needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-     - name: Print the final result
-       shell: bash
-       run: |
-          echo The result is $github.run_number
+  
 
 
