@@ -23,5 +23,3 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: say Hello
-      run: echo "hello deployment"
