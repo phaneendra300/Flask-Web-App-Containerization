@@ -22,8 +22,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Install packages
-      run: |
-          apt-get install curl -y
+     - name: Print the final result
+       shell: bash
+       run: |
+          echo The result is $github.run_number
 
 
